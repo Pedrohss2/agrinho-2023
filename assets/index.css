@@ -1,0 +1,35 @@
+:root {
+    --color--button:  #ccc;
+}
+body {
+    background-color: #ccc;
+    font-family: sans-serif, cursive;
+    margin: 0;
+    padding:0;
+}
+
+header {
+    background-color: #1616168f;
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: end;
+    list-style-type: none;
+}
+
+li a {
+    display: inline;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 15px;
+    text-transform: uppercase;
+}
+
+li a:hover {
+    color: yellow;
+}
