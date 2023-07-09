@@ -5,73 +5,84 @@ html {
     font-weight: 400;
 }
 :root {
-    --color--button:  #ccc;
+    --color--title:  yellow;
+    --font--title: 3rem;
 }
-
-body {
-    
-    font-family: sans-serif, cursive;
-    padding: 0;
+.wrapperContainer-fixado {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 .header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #2a2a2a;
-    padding: 2rem 0;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 4rem 0;
+
 }
+
+.wrapperContainer-dark {
+ 
+    background-color: #131313;
+}
+
+.header_nav ul{
+    display: flex;
+    gap: 5px;
+    list-style-type: none;
+}
+
+.header_nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+    padding: .8rem;
+    margin-right: 2rem;
+
+    transition: .2s linear;
+}
+
+.header_nav a:hover{
+    border-radius: 5px;
+    text-decoration: underline;
+    background: linear-gradient(90deg, #3f51b52a, transparent) #2195f344;
+}
+
 
 .main-title {
+    margin-left: 2rem;
     font-size: 3rem;
+    color: white;
     text-transform: uppercase;
-    color: yellow;
 }
-.container {
-    max-width: 127.6rem;
-    margin: auto;
-}
-.wrapperContainer {
-    padding-top: 0;
-    background-color: #707070;
-}
-ul {
+
+.hero_aling {
     display: flex;
-    list-style-type: none;
-    margin-left: 1.8rem;    
-    gap: 3rem;
- }
-
- .header_nav a {
-    background-color: transparent;
-    border: 1px solid yellow;
-
-    font-size: 2rem;
-    text-decoration: none;
-    color: yellow;
-    padding: 1.5rem;
-
-    transition: .2s  linear;
- }
- .header_nav  a:hover {
-    text-decoration: underline;
-    background-color: #0e0e0e;
-    border-radius: 2px;
- }
- /* ---- Section content ----*/
-
- .hero {
-
-    height: 50rem;
-    background-image: linear-gradient(yellow, #ffff);
-    border-bottom: 1px solid #000;
- }
- .hero_aling {
-    text-align: center;
-   
- }
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    height: 70rem;
+}
 
 .hero_title {
-    color: black; 
-    font-size: 2rem;
+    color: #080808;
+    font-size: var(--font--title);
+    padding-bottom: 2rem;
     text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.hero_aling:first-child {
+   font-size: 2rem;
+    color: #0a0a0a;
+    font-weight: bold;
+}
+
+.container_title {
+    margin: 10rem 0 0 0 ;
+    font-size: var(--font--title);
+    text-align: center;
 }
