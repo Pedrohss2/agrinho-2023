@@ -46,8 +46,7 @@ html {
     text-shadow: 0 0 5px rgb(255, 255, 255);
     border-radius: 5px;
     text-decoration: underline;
-    background-color:  linear-gradient(to bottom right, #305170, #6DFC6B); 
-    /*linear-gradient(90deg, #3f51b52a, transparent) #2195f344;*/
+    background: linear-gradient(90deg, #3f51b52a, transparent) #2195f344;
 }
 
 .main-title {
