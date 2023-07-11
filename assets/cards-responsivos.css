@@ -1,0 +1,33 @@
+/* ---- Reponsivo ---- */
+@media screen and (max-width: 50rem){
+
+    .main-title {
+        font-size: 2.5rem;
+    }
+    .header_nav ul{
+        display: block;
+    }
+    .header_nav li{
+        margin-bottom: 10px;
+    }
+
+    .hero_aling{
+        text-align: center;
+    }
+
+    .hero_title{
+        font-size: 1.8rem;
+    }
+    .hero_aling p {
+        font-size: 1.5rem;
+    }
+
+    .container-images {
+        flex-direction: column;
+  
+    }
+    .container-section h2 {
+        font-size: 2rem;
+    }
+    
+ }
