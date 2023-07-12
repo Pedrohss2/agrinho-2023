@@ -144,16 +144,20 @@ html {
     font-size: 2rem;
 }
 
-#menu {
+
+.label {
     display: none;
 }
  
 /* ---- Reponsivo ---- */
-@media screen and (max-width: 50rem){
-
-    .main-title {
-        font-size: 1.5rem;
+@media screen and (max-width: 55rem){
+    .header_nav {
+    display: none;
     }
+    .main-title {
+        display: none;
+    }
+
     .header_nav ul{
         display: block;
     }
@@ -174,42 +178,49 @@ html {
 
     .container-images {
         flex-direction: column;
-  
     }
     .container-section h2 {
         font-size: 2rem;
     }
-    
-    nav {
-        display: none;
-    }
-    #menu {
-        display: none;
-    }
-    .menu {
-        display: block;
-        border-radius: 50%;
-        background: #ccc; 
-        padding: 10px;
-        float: right;
-    }
-    .header_nav ul li { 
-        display: block;
-        padding: 10px 0px;
-    }
-    .header_nav ul li a { 
-        padding: 0;
-        margin: 0 15px 10px 0;
-        width: 100%; 
-        float: left;
-    }
 
-    #menu:checked ~ nav {
-       display: block;
-       background-color: #ccc;
-       box-shadow: 0 0 10px rgb(0, 0, 0);
-       
-    }
+ .label {
+    width: 100vw;
+    text-align: center;
+    display: block;
+    color: white;
+ }
+ .label ul {
+    list-style: none;
+    display: none;
+    padding: 10px;
+ }
+ .label ul li a{
+    width: 100%;
+    color: white;
+    text-decoration: none;
+   
+ }
+ .label ul li a:hover {
+    text-decoration: underline;
+ }
+ 
+ .label ul li {
+    border-bottom: 1px solid rgba(119, 255, 0, 0.815);
     
+    margin-bottom: 2rem;
+ }
+
+ input[type="checkbox"] {
+    display: none;
+ } 
+
+
+
+ input[type="checkbox"]:checked ~ ul {
+    display: block;
+  
+    font-size: 1.5rem;
+ } 
+
 }
 
