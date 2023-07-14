@@ -53,6 +53,7 @@ html{
     margin-right: .8rem;
 }
 .header_nav a:hover { 
+    color: white;
     border-radius: 5px;
     text-decoration: underline;
     background: linear-gradient(90deg, #3f51b52a, transparent) #2195f344;
@@ -93,68 +94,51 @@ html{
 }
 
 .container_title {
-    margin: 10rem 0 0 0 ;
+    margin: 10rem 0  10rem 0 ;
     font-size: var(--font--title);
     text-align: center;
 }
 
 /* Fomatação da seção container-images (container de imagem) */
-.container-content {
-    text-align: center;
-    padding: 20px;
-}
-
-.container-images{
+.ok  {
     display: flex;
-    gap: 2rem;
-    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+    align-items: start;
+    margin-bottom: 60px;
+    border-bottom: 2px solid #ccc;
+}
+.ok img {
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
 }
 
-.container_card {
-    text-align: left;
-    flex: 1;
-    overflow: auto;
-    box-shadow: 2px 2px 10px rgb(0, 0, 0);
-    border-radius: 20px;
-    height: 600px;
-    transition: .2s linear;
-}
-
-.container_card:hover {
-    box-shadow: 0px 0px 5px green;
+.ok h3 {
+    text-transform: uppercase;
+    color: blue;
 } 
-
-.container_card img {
-    display: block;
-    width: 100%;
+.ok p {
+    text-align: justify;
+    color: black;
+    line-height: 2;
+    font-size: 12px;
+    width: 1000px;
+}
+.olasd {
+    flex-direction: row-reverse;
 }
 
-.container-section h2 {
-    margin: 7rem 0 7rem 0;
-}
-
-.container-card-content  {
-    padding: 1.9rem 1.25rem;
-    border-top: transparent;
-    border-radius: 0 0 8px 8px;
-}
-
-.container-card-content p{
-    font-size: 1.8rem;
-    line-height: 1.5;
-}
-
-.container-card-content h3 {
-    font-weight: bold;
-    font-size: 2rem;
+.img3 {
+    flex-direction: row;
 }
 
 .label {
     display: none;
 }
 
-
-@media screen and (max-width: 50rem) {
+@media screen and (max-width: 10rem) {
     .header_nav {
         display: none;
     }
@@ -217,6 +201,7 @@ html{
         border-bottom: 1px solid rgba(119, 255, 0, 0.815);
         margin-bottom: 2rem;
     }
+    
 
     input[type="checkbox"] {
         display: none;
