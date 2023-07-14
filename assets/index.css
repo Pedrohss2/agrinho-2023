@@ -103,7 +103,7 @@ html{
 .ok  {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 20px;
     align-items: start;
     margin-bottom: 60px;
     border-bottom: 2px solid #ccc;
