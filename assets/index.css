@@ -36,7 +36,6 @@ html{
 
 .header_nav ul li {
     padding: 0;
-
     border-right: 1px solid rgba(240, 240, 240, 0.288);
     margin: 0 4rem 0 0 ;
 }
@@ -85,6 +84,7 @@ html{
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: bold;
+
 }
 
 .hero_aling:first-child {
@@ -100,33 +100,35 @@ html{
 }
 
 /* Fomatação da seção container-images (container de imagem) */
-.ok  {
+.container-image  {
     display: flex;
     flex-direction: row;
     gap: 20px;
     align-items: start;
     margin-bottom: 60px;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    width: 98%;
+
 }
-.ok img {
+.container-image img {
     width: 300px;
-    margin: 10px;
-    border-radius: 10px;
+    margin: 15px 0;
+    border-radius: 10px ;
     box-shadow: 0 0 10px black;
 }
 
-.ok h3 {
+.container-image h3 {
     text-transform: uppercase;
     color: blue;
 } 
-.ok p {
+.container-image p {
     text-align: justify;
     color: black;
     line-height: 2;
-    font-size: 12px;
-    width: 1000px;
+    font-size: 15px;
+    width: 100%;
 }
-.olasd {
+.container-reverse {
     flex-direction: row-reverse;
 }
 
@@ -138,7 +140,7 @@ html{
     display: none;
 }
 
-@media screen and (max-width: 10rem) {
+@media screen and (max-width: 50rem) {
     .header_nav {
         display: none;
     }
@@ -202,7 +204,6 @@ html{
         margin-bottom: 2rem;
     }
     
-
     input[type="checkbox"] {
         display: none;
     }
@@ -211,6 +212,7 @@ html{
         font-size: 3rem;
         font-weight: bold;
     }
+
     input[type="checkbox"]:checked ~ ul {
         display: block;
         font-size: 1.5rem;
