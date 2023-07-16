@@ -7,6 +7,7 @@ html{
 
 :root {
     --color--title:  yellow;
+    --font--title: 3rem;
 }
 
 .wrapperContainer-fixado {
@@ -35,7 +36,6 @@ html{
 
 .header_nav ul li {
     padding: 0;
-
     border-right: 1px solid rgba(240, 240, 240, 0.288);
     margin: 0 4rem 0 0 ;
 }
