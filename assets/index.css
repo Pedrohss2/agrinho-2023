@@ -1,10 +1,10 @@
-
+/*<------------------Start------------------>*/
 html{
     font-size: 62.5%;
     font-family: sans-serif;
     font-weight: 400;
 }
-
+/*<-- Variáveis -->*/
 :root {
     --color--title:  yellow;
     --font--title: 3rem;
@@ -47,10 +47,7 @@ html{
     padding: 1rem;
     transition: .2s linear;
 }
-.icon {
-    font-size: 2rem;
-    margin-right: .8rem;
-}
+
 .header_nav a:hover { 
     color: white;
     border-radius: 5px;
@@ -84,6 +81,7 @@ html{
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: bold;
+
 
 }
 
@@ -128,6 +126,7 @@ html{
 .container-image h3 {
     text-transform: uppercase;
     color: blue;
+
 } 
 .container-image p {
     text-align: justify;
@@ -147,33 +146,34 @@ html{
 .section {
     width: 90%;
     margin: auto;
-    height: 800px;
-  
 }
 .section-div p{
     text-align: justify;
     font-size: 2rem;
-    opacity: 2;
-    line-height: 1.5;
+    opacity: .8;
+    line-height: 1.9;
+    padding:  15px 15px 15px 0px ;
 }
 
 .section-div h3 {
     text-transform: uppercase;
-    color: green;
+    font-weight: bold;
     font-size: 2.5rem;
+    color: rgb(10, 83, 10);
 }
 .h2 {
     padding: 4rem 2rem;
     text-align: center;
     font-size: 4rem;
     text-transform: uppercase;
-    color: green;
+    
 }
 
 .section-div_contador {
     counter-reset: contador;
 }
 .section-div_contador h3:before {
+    font-weight: bold;
     color: black;
     counter-increment: contador;
     content: counter(contador);
@@ -183,6 +183,7 @@ html{
     display: none;
 }
 
+/*<-- Responsivo cards -->*/
 @media screen and (max-width: 50rem) {
     .header_nav {
         display: none;
@@ -218,6 +219,7 @@ html{
         font-size: 2rem;
     }
 
+    /*<-- Menu responsivo -->*/
     .label {
         width: 100vw;
         text-align: center;
@@ -259,6 +261,7 @@ html{
         display: block;
         font-size: 1.5rem;
     } 
+    /*<-- Fim do menu responsivo -->*/
     .container-main  {
         width: 80%;
         margin: auto;
@@ -283,7 +286,6 @@ html{
         box-shadow: 0 0 10px green;
     }
 
-   
     .texto-junto {
         padding: 10px;
     }
@@ -293,4 +295,5 @@ html{
     }
 
 }
+/*<------------------End------------------>*/
 
