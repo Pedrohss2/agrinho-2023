@@ -128,7 +128,6 @@ html{
     flex-direction: row;
     gap: 2rem;
     align-items: start;
-   
     border-bottom: 1px solid #ccc;
     padding: 5rem 0 5rem 0;
     
@@ -155,6 +154,7 @@ html{
     line-height: 2;
     font-size: 1.5rem;
     width: 100%;
+
 }
 .container-reverse {
     flex-direction: row-reverse;
