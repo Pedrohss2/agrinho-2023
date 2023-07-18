@@ -29,7 +29,7 @@ html{
 }
 
 .wrapperContainer-dark {
-    background-color: #131313f1;
+    background-color: #161616;
 }
 
 .header_nav ul{
@@ -54,7 +54,7 @@ html{
     transition: .2s linear;
 }
 
-.header_nav a:hover { 
+.menu-item a:hover { 
     color: white;
     border-radius: 5px;
     text-decoration: underline;
@@ -199,7 +199,7 @@ html{
 }
 .section-div_contador h3:before {
     font-weight: bold;
-    color: black;
+    color: rgb(20, 20, 20);
     counter-increment: contador;
     content: counter(contador);
     margin-right: 10px;
@@ -207,6 +207,3 @@ html{
 .label {
     display: none;
 }
-
-
-
