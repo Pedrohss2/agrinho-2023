@@ -34,15 +34,17 @@ html{
 
 .header_nav ul{
     display: flex;
-    gap: .5rem;
+    gap: 2rem;
     list-style-type: none;
 
 }
 
 .header_nav ul li {
-    padding: 0;
     border-right: 1px solid rgba(240, 240, 240, 0.288);
-    margin: 0 4rem 0 0 ;
+}
+
+.header_nav ul li:last-child {
+    margin: 0 6em 0 0 ;
 }
 
 .header_nav a {
