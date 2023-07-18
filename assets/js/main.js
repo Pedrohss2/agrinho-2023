@@ -1,7 +1,6 @@
 let color = document.querySelector("#color");
-let escolhi = document.querySelector(".escolhi")
+let escolhe = document.querySelector(".escolhe")
 
-escolhi.addEventListener('click', function() {
+escolhe.addEventListener('click', function() {
     window.document.body.style.backgroundColor = color.value;
-   
-})
+});
