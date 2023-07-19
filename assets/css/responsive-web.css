@@ -8,12 +8,13 @@
     }
 
     .header_nav ul {
+        background-color: #cccccc41;
         align-items: flex-end;
         flex-direction: column; 
     }
 
     .header_nav ul li a{
-        color: black;
+        color: white;
         font-weight: bold;
     }
 
