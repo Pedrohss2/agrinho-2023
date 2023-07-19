@@ -1,24 +1,104 @@
-@media screen and (max-width: 70rem) {
-    .header_nav {
-        display: none;
-    }
-    .main-title {
-       display: none;
-    }
-    .header_nav ul{
-        display: block;
-    }
-    .wrapperContainer-dark {
-        border-radius: 0;
-        background-color: #050505f1;
-    }
-    .header_nav li{
-        margin-bottom: 1rem;
+@media screen and (max-width: 60rem) {
+    .header {
+        justify-content: space-between;
+        display: flex;
     }
     .hero_aling{
         text-align: center;
     }
 
+    .header_nav ul {
+        align-items: flex-end;
+        flex-direction: column; 
+    }
+
+    .header_nav ul li a{
+        color: black;
+        font-weight: bold;
+    }
+
+    .header-menu {
+        max-height: 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 100px;
+        padding-left: 1rem;
+        overflow: hidden;
+        padding-right: 1rem;
+        transition: max-height .3s;
+    
+    } 
+    .menu-id, .menu-icon {
+        display: none;
+    }
+   
+    .menu-icon {
+        display: block;
+    }
+    .header_nav ul li:last-child {
+        margin: 0 0 0 0 ;
+    } 
+
+    .header nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .menu-icon {
+        margin-right: 1rem;
+        position: relative;
+        cursor: pointer;
+    }
+
+    input[type="checkbox"]:checked ~ .header-menu {
+        max-height: 100vh;
+        
+    }
+   
+    input[type="checkbox"]:checked + .menu-icon .bi-list::before {
+        transform: rotate(-45deg);
+    }
+
+    input[type="checkbox"]:checked + .menu-icon .bi-list::after {
+        transform: rotate(45deg);
+    }
+
+    .header-menu:focus-within {
+        max-height: 100vh;
+    }
+
+    .bi-list {
+        background-color: #ccc;
+        display: inline-block;
+        height: 2px;
+        width: 24px;
+
+    }
+
+    .bi-list::after, 
+    .bi-list::before {
+        content: " ";
+        background-color: #ccc;
+        display: inline-block;
+        height: 2px;
+        width: 24px;
+        transition: transform 1s;
+        position: absolute;
+    }  
+    .bi-list::after {
+        transform: translateY(8px);
+        transition: transform 1s;
+    }
+    
+    .bi-list::before {
+        transform: translateY(-8px);
+    }
+
+    .wrapperContainer-dark {
+        border-radius: 0;
+        background-color: #050505f1;
+    }
     .hero_title{
         font-size: 1.8rem;
     }
@@ -39,50 +119,7 @@
 
     /*<-- Menu responsivo -->*/
     
-    .label {
-        width: 100vw;
-        text-align: center;
-        display: block;
-        color: white;
-    }
-
-    .label ul {
-        list-style: none;
-        display: none;
-        padding: 10px;
-      
-    }
-    .label ul li a{
-        width: 100%;
-        color: white;
-        text-decoration: none;
-    }
-    .label ul li a:hover {
-        border-radius: 0;
-        padding: 2px;
-        text-decoration: underline;
-        background: linear-gradient(90deg, #3f51b52a, transparent) #2195f344;
-    }
- 
-    .label ul li {
-        border-bottom: 1px solid rgba(119, 255, 0, 0.815);
-        margin-bottom: 2rem;
-    }
     
-    input[type="checkbox"] {
-        display: none;
-    }
-    
-    .bi-list {
-        font-size: 3rem;
-        font-weight: bold;  
-    }
-    input[type="checkbox"]:checked ~ ul {
-        display: block;
-        font-size: 1.5rem;
-        
-        
-    } 
     /*<-- Fim do menu responsivo -->*/
     .container-main  {
         width: 80%;

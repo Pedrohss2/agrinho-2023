@@ -1,6 +1,6 @@
-let color = document.querySelector("#color");
-let escolhe = document.querySelector(".escolhe")
+let color = window.document.querySelector("#color");
+let escolhe = window.document.querySelector(".escolhe")
 
 escolhe.addEventListener('click', function() {
-    window.document.body.style.backgroundColor = color.value;
+    document.body.style.backgroundColor = color.value;
 });

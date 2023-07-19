@@ -18,9 +18,14 @@ html{
     z-index: 1;
 }
 
+.menu-id, .menu-icon {
+    display: none;
+}
+
 .icon {
     font-size: 2rem;
 }
+
 .header {
    display: flex;
    justify-content: space-between;
@@ -229,7 +234,4 @@ html{
     animation: cubic-bezier(0.075, 0.82, 0.165, 1);
     box-shadow: 0 0 10px black;
     color: white;
-}
-.label {
-    display: none;
 }
