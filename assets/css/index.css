@@ -44,7 +44,7 @@ html{
 }
 
 .header_nav ul li:last-child {
-    margin: 0 6em 0 0 ;
+    margin: 0 5em 0 0 ;
 }
 
 .header_nav a {
@@ -83,7 +83,7 @@ html{
     align-items: center;
     justify-content: center; 
     height: 70rem;
-    animation: hero_aling 7s linear infinite;
+    animation: hero_aling 2s linear infinite;
 
 } 
 
