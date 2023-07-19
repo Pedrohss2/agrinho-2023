@@ -22,10 +22,6 @@ html{
     display: none;
 }
 
-.icon {
-    font-size: 2rem;
-}
-
 .header {
    display: flex;
    justify-content: space-between;
