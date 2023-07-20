@@ -8,6 +8,7 @@ html{
 :root {
     --color--title:  yellow;
     --font--title: 3rem;
+    --text--shadow:  0 0 8px rgb(8, 172, 16);
 }
 
 .wrapperContainer-fixado {
@@ -70,7 +71,7 @@ html{
     font-size: 3rem;
     color: white;
     text-transform: uppercase;
-    text-shadow: 0 0 10px rgb(8, 172, 16);
+    text-shadow: var(--text--shadow);
 }
 
 .section-hero {
@@ -116,9 +117,10 @@ html{
     font-weight: bold;
 }
 .container_title {
-    margin: 5.5rem;
-    font-size: var(--font--title);
+    padding: 6rem;
+    font-size: 5rem;
     text-align: center;
+    text-shadow: var(--text--shadow);
 }
 
 /* Fomatação da seção container-images (container de imagem) */
@@ -148,8 +150,9 @@ html{
 
 .container-image h3 {
     text-transform: uppercase;
+    font-size: 2rem;
     color: blue;
-
+    margin: 0;
 } 
 .container-image p {
     text-align: justify;
@@ -162,14 +165,13 @@ html{
 .container-reverse {
     flex-direction: row-reverse;
 }
-
 .img3 {
     flex-direction: row;
 }
-
-.section {
+.section-dicas {
     width: 90%;
     margin: auto;
+ 
 }
 .section-div p{
     text-align: justify;
@@ -183,14 +185,19 @@ html{
     text-transform: uppercase;
     font-weight: bold;
     font-size: 2.5rem;
-    color: rgb(10, 83, 10);
+  
+}
+.section-div:hover {
+    background-color: #ccc;
+    box-shadow: 0 0 10px rgb(70, 69, 69);
+    transition: .2s ease-out;
 }
 .h2 {
     padding: 4rem 2rem;
     text-align: center;
     font-size: 4rem;
     text-transform: uppercase;
-    
+    text-shadow: var(--text--shadow);
 }
 .section-div_contador {
     counter-reset: contador;
@@ -203,6 +210,13 @@ html{
     content: counter(contador);
     margin-right: 10px;
 }
+
+
+
+
+
+
+
 .cor-Fundo {
     display: flex;
     flex-direction: column;
@@ -231,3 +245,5 @@ html{
     box-shadow: 0 0 10px black;
     color: white;
 }
+
+
