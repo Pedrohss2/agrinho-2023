@@ -104,7 +104,6 @@ html{
     color: #ffffff;
     font-size: var(--font--title);
     padding-bottom: 2rem;
-    text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: bold;   
 }
