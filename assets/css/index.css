@@ -100,6 +100,7 @@ html{
         text-shadow: 0 0 10px rgb(2, 255, 2);
     }
 }
+
 .hero_title {
     color: #ffffff;
     font-size: var(--font--title);
