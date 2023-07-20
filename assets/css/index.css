@@ -52,8 +52,7 @@ html{
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 1.6rem;
-   
-    padding: 1rem;
+    padding: 1rem ;
     transition: .2s linear;
 }
 
@@ -195,6 +194,7 @@ html{
 .section-div_contador {
     counter-reset: contador;
 }
+
 .section-div_contador h3:before {
     font-weight: bold;
     color: rgb(20, 20, 20);
@@ -202,21 +202,20 @@ html{
     content: counter(contador);
     margin-right: 10px;
 }
-.cor {
+.cor-Fundo {
     display: flex;
     flex-direction: column;
     gap: 15px;
     align-items: center;
     margin-top: 15px;
-   
 }
-.cor #color {
+.cor-Fundo #color {
     width: 50%;
     height: 80px;
     background-color: #ccc;
     
 }
-.cor button {
+.cor-Fundo button {
     width: 50%;
     padding: 20px;
     background-color: #0c5656;
@@ -226,7 +225,7 @@ html{
     transition: .2s linear;
 }
 
-.cor button:hover {
+.cor-Fundo button:hover {
     animation: cubic-bezier(0.075, 0.82, 0.165, 1);
     box-shadow: 0 0 10px black;
     color: white;
