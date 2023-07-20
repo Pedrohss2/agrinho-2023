@@ -212,11 +212,6 @@ html{
 }
 
 
-
-
-
-
-
 .cor-Fundo {
     display: flex;
     flex-direction: column;
@@ -245,5 +240,20 @@ html{
     box-shadow: 0 0 10px black;
     color: white;
 }
+.conciente {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+}
 
-
+footer {
+    margin-top: 50px;
+    text-align: center;
+    background-color: #27b4b4;
+    padding: 40px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-shadow: var(--text--shadow);
+}
