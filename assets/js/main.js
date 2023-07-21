@@ -1,8 +1,9 @@
-let color = window.document.querySelector("#color");
-let escolhe = window.document.querySelector(".escolhe")
+function modoNotruno() {
+    const backgroundDark = document.body.style.background = '#000';
+    let colorP = document.body.style.color = '#fff';
+}
 
-escolhe.addEventListener('click', function() {
-    document.body.style.backgroundColor = color.value;
-});
-
-
+function modoClaro() {
+    const backgroundLight = document.body.style.background = '#fff';
+    let colorP = document.body.style.color = '#000';
+}

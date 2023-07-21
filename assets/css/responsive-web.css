@@ -106,9 +106,11 @@
         border-radius: 0;
         background-color: #050505f1;
     }
+    
     .hero_title{
         font-size: 1.8rem;
     }
+
     .hero_aling p {
         font-size: 1.5rem;
        
@@ -141,7 +143,7 @@
         border-radius: 1rem;
         margin-bottom: 5rem;
         text-align: left;
-        background-color: white ;
+        border: 2px solid white;
 
         transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
     }

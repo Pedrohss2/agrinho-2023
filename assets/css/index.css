@@ -156,7 +156,6 @@ html{
 } 
 .container-image p {
     text-align: justify;
-    color: black;
     line-height: 2;
     font-size: 1.5rem;
     width: 100%;
@@ -177,6 +176,7 @@ html{
     text-align: justify;
     font-size: 2rem;
     opacity: .8;
+   
     line-height: 1.9;
     padding:  15px 15px 15px 0px ;
 }
@@ -184,6 +184,7 @@ html{
 .section-div h3 {
     text-transform: uppercase;
     font-weight: bold;
+    color: green;
     font-size: 2.5rem;
   
 }
@@ -205,12 +206,11 @@ html{
 
 .section-div_contador h3:before {
     font-weight: bold;
-    color: rgb(20, 20, 20);
+    color:green;
     counter-increment: contador;
     content: counter(contador);
     margin-right: 10px;
 }
-
 
 .cor-Fundo {
     display: flex;
@@ -241,7 +241,7 @@ html{
     color: white;
 }
 .conciente {
-    color: black;
+    font-weight: bold;
     font-size: 20px;
     text-align: center;
     padding: 30px;
