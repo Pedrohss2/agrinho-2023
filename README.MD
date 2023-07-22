@@ -17,7 +17,7 @@
 <h2>Organização:</h2>
 <ol>
     <li>Introdução</li>
-    <li>Tipos de poluiçao</li>
+    <li>Tipos de poluição</li>
     <li>Dicas para redução da poluição</li>
     <li>Sobre a página (explicação)</li>
      <li>rodapé da página (footer)</li>
