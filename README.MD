@@ -8,6 +8,8 @@
 </p>
 <h2>Ferramentas usadas:</h2>
 
+<h2>Organização das pastas</h2>
+
 <ul>
     <li>HTML5</li>
     <li>CSS3</li>

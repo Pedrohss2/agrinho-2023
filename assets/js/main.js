@@ -1,9 +1,6 @@
 function modoNotruno() {
     const backgroundDark = document.body.style.background = '#000';
     let colorP = document.body.style.color = '#fff';
-
-    let o = document.querySelector('.polu') 
-    o.document.body.style.color = '#fff'
 }
 
 function modoClaro() {
