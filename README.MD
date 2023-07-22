@@ -20,12 +20,8 @@
     <li>Tipos de poluição</li>
     <li>Dicas para redução da poluição</li>
     <li>Sobre a página (explicação)</li>
-     <li>rodapé da página (footer)</li>
+    <li>Rodapé da página (footer)</li>
 </ol>
 
-
 <hr>
-
-
-
 
