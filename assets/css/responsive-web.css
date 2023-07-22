@@ -155,9 +155,42 @@
     .texto-junto {
         padding: 20px;
     }
+    .texto-junto h3{
+        text-shadow: 2px 2px 8px #000;
+    }
     .container-image img {
         width: 100%;
         border-radius: 1rem;
     }
+
+    .h2 {
+        font-size: 2.5rem;
+        color: rgb(0, 255, 0);
+        text-shadow: 2px 4px 4px #000;
+    }
+    .section-div {
+        width: 100%;
+        margin: auto;
+    }
+
+    .section-div:hover {
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .section-div h3  {
+        font-size: 2.3rem;
+        text-shadow: 3px 3px 8px #000;
+    }
+    .section-div p{
+        font-size: 2rem;
+        text-align: justify;
+    }
+    .conciente p {
+        font-size: 1.5rem;
+        text-shadow: 2px 4px 4px #000;
+    }
+
+
 
 }

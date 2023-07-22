@@ -1,7 +1,7 @@
 /*<------------------Start------------------>*/
 html{
     font-size: 62.5%;
-    font-family: sans-serif;
+    font-family: sans-serif, cursive, Verdana, Geneva, Tahoma;
     font-weight: 400;
 }
 /*<-- Variáveis -->*/
@@ -247,7 +247,7 @@ html{
     padding: 30px;
 }
 
-footer {
+.footer {
     margin-top: 50px;
     text-align: center;
     background-color: #27b4b4;
