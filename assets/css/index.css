@@ -102,6 +102,7 @@ html{
         text-shadow: 0 0 10px rgb(2, 255, 2);
     }
 }
+/*Fim flutuação*/
 
 
 /*Animação de digitação*/
@@ -110,19 +111,19 @@ html{
       width: 0%;
     }
     100% {
-      width: 50%;
+      width: 60%;
     }
 }
 
   @keyframes piscarPonteiro {
-    1% {
+    0% {
       border-color: rgb(0, 255, 115);
     }
     100% {
         border-color: transparent;
       }
 }
-/* --Fim-- */
+/* --Fim digitação-- */
 
 .hero_title {
     color: #ffffff;
