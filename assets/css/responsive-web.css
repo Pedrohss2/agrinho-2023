@@ -24,7 +24,7 @@
         position: absolute;
         left: 0;
         right: 0;
-        top: 97px;
+        top: 96px;
         padding-left: 1rem;
         overflow: hidden;
         padding-right: 1rem;
@@ -108,9 +108,10 @@
     }
     
     .hero_title{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
+        animation: none;
+        border-right: none;
     }
-
     .hero_aling p {
         font-size: 1.5rem;
        
@@ -125,6 +126,7 @@
 
     .hero_aling {
         animation: none;
+       
     }
 
     .container-main  {
@@ -155,6 +157,9 @@
     .texto-junto {
         padding: 20px;
     }
+    .texto-junto p {
+        text-align: left;
+    }
     .texto-junto h3{
         text-shadow: 2px 2px 8px #000;
     }
@@ -164,7 +169,8 @@
     }
 
     .h2 {
-        font-size: 2.5rem;
+        font-size: 2rem;
+        box-sizing: border-box;
         color: rgb(0, 255, 0);
         text-shadow: 2px 4px 4px #000;
     }
@@ -179,15 +185,15 @@
     }
 
     .section-div h3  {
-        font-size: 2.3rem;
+        font-size: 1.5rem;
         text-shadow: 3px 3px 8px #000;
     }
     .section-div p{
-        font-size: 2rem;
-        text-align: justify;
+        font-size: 1.5rem;
+        text-align: left;
     }
     .conciente p {
-        font-size: 1.5rem;
+        font-size: .8rem;
         text-shadow: 2px 4px 4px #000;
     }
 

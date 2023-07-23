@@ -136,8 +136,7 @@ html{
     overflow: hidden;
     animation: escrever 2.5s steps(13) infinite normal,
     piscarPonteiro  steps(13) infinite;
-    border-right: 4px solid rgb(6, 255, 47);
-    
+    border-right: 4px solid rgb(6, 255, 47)
 }
 
 .hero_aling p{
