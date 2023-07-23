@@ -19,6 +19,7 @@ html{
     z-index: 1;
 }
 
+
 .menu-id, .menu-icon {
     display: none;
 }
@@ -85,9 +86,9 @@ html{
     justify-content: center; 
     height: 70rem;
     animation: hero_aling 2s linear infinite;
-
 } 
 
+/*Animação de flutuação*/
 @keyframes hero_aling {
     10% {
         transform: translateY(-15px);
@@ -102,13 +103,41 @@ html{
     }
 }
 
+
+/*Animação de digitação*/
+@keyframes escrever {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 50%;
+    }
+}
+
+  @keyframes piscarPonteiro {
+    1% {
+      border-color: rgb(0, 255, 115);
+    }
+    100% {
+        border-color: transparent;
+      }
+}
+/* --Fim-- */
+
 .hero_title {
     color: #ffffff;
     font-size: var(--font--title);
     padding-bottom: 2rem;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-weight: bold;   
+    font-weight: bold; 
+    
+    white-space: nowrap;
+    overflow: hidden;
+    animation: escrever 2.5s steps(13) infinite normal,
+    piscarPonteiro  steps(13) infinite;
+    border-right: 4px solid rgb(6, 255, 47);
+    
 }
 
 .hero_aling p{
