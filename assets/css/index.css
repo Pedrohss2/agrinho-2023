@@ -107,19 +107,19 @@ html{
 
 /*Animação de digitação*/
 @keyframes escrever {
-    0% {
+    from {
       width: 0%;
     }
-    100% {
+    to {
       width: 60%;
     }
 }
 
   @keyframes piscarPonteiro {
-    0% {
+    from {
       border-color: rgb(0, 255, 115);
     }
-    100% {
+    to {
         border-color: transparent;
       }
 }
