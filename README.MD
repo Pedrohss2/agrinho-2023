@@ -6,9 +6,8 @@
     Site totalmente original.
     As imagens usadas foram 100% criadas, sem copias ou algo relacionado.
 </p>
+<h2>Ferramentas usadas:</h2>
 
-
-<h2>Organização das pastas</h2>
 
 <ul>
     <li>HTML5</li>
