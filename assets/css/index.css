@@ -286,3 +286,17 @@ html{
     font-size: 3rem;
     text-shadow: var(--text--shadow);
 }
+
+button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.bi-moon, 
+.bi-sun {
+    color: lightgoldenrodyellow;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
