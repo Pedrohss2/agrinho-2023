@@ -6,7 +6,6 @@ html{
 }
 /*<-- Variáveis -->*/
 :root {
-    --color--title:  yellow;
     --font--title: 3rem;
     --text--shadow:  0 0 8px rgb(8, 172, 16);
 }
@@ -25,10 +24,10 @@ html{
 }
 
 .header {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
 }
 
 .wrapperContainer-dark {
@@ -37,11 +36,11 @@ html{
 
 .header_nav ul{
     display: flex;
+
     gap: 2rem;
     list-style-type: none;
 
 }
-
 .header_nav ul li {
     border-right: 1px solid rgba(240, 240, 240, 0.288);
 }
@@ -57,7 +56,23 @@ html{
     padding: 1rem ;
     transition: .2s linear;
 }
+.cor-Fundo {
+    background-color: #ccc;
+    width: 35px;
+    border-radius: 25px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
 
+.cor-Fundo::before:checked {
+    content: '';
+    background-color: red;
+    border-radius: 50%;
+    padding: 15px;
+    position: absolute;
+}
 .menu-item a:hover { 
     color: white;
     border-radius: 5px;
@@ -85,25 +100,8 @@ html{
     align-items: center;
     justify-content: center; 
     height: 70rem;
-    animation: hero_aling 2s linear infinite;
+   
 } 
-
-/*Animação de flutuação*/
-@keyframes hero_aling {
-    10% {
-        transform: translateY(-15px);
-        text-shadow: 0 0 5px rgba(2, 172, 2, 0.582);
-    }
-    50% {
-        text-shadow: 0 0 8px rgba(3, 206, 3, 0.918);
-    }
-    80% {
-        transform: translateY(15px);
-        text-shadow: 0 0 10px rgb(2, 255, 2);
-    }
-}
-/*Fim flutuação*/
-
 
 /*Animação de digitação*/
 @keyframes escrever {
@@ -111,17 +109,8 @@ html{
       width: 0%;
     }
     to {
-      width: 60%;
+      width: 750px;
     }
-}
-
-  @keyframes piscarPonteiro {
-    from {
-      border-color: rgb(0, 255, 115);
-    }
-    to {
-        border-color: transparent;
-      }
 }
 /* --Fim digitação-- */
 
@@ -135,8 +124,8 @@ html{
     
     white-space: nowrap;
     overflow: hidden;
-    animation: escrever 2.5s steps(13) infinite normal,
-    piscarPonteiro  steps(13) infinite;
+    animation: escrever 4s steps(25) infinite normal,
+    piscarPonteiro  800ms steps(25) infinite normal;
     border-right: 4px solid rgb(6, 255, 47)
 }
 
@@ -241,34 +230,7 @@ html{
     margin-right: 10px;
 }
 
-.cor-Fundo {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    align-items: center;
-    margin-top: 15px;
-}
-.cor-Fundo #color {
-    width: 50%;
-    height: 80px;
-    background-color: #ccc;
-    
-}
-.cor-Fundo button {
-    width: 50%;
-    padding: 20px;
-    background-color: #0c5656;
-    border-radius: 20px;
-    text-transform: uppercase;
-    font-weight: bold;
-    transition: .2s linear;
-}
 
-.cor-Fundo button:hover {
-    animation: cubic-bezier(0.075, 0.82, 0.165, 1);
-    box-shadow: 0 0 10px black;
-    color: white;
-}
 .conciente {
     font-weight: bold;
     font-size: 20px;
@@ -295,7 +257,7 @@ button {
 }
 .bi-moon, 
 .bi-sun {
-    color: lightgoldenrodyellow;
+    color: rgb(0, 0, 0);
     font-size: 2rem;
     font-weight: bold;
 }
