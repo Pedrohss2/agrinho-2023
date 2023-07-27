@@ -6,6 +6,9 @@
     .hero_aling {
         text-align: center;
     }
+    .main-title {
+        font-size: 2rem;
+    }
   
     /* ---- Menu hamburguer ---**/
     .header-menu  {
@@ -182,15 +185,15 @@
 
     .section-div h3  {
         font-size: 1.5rem;
-        text-shadow: 3px 3px 8px #000;
+       
     }
     .section-div p{
         font-size: 1.5rem;
         text-align: left;
     }
     .conciente p {
-        font-size: .8rem;
-        text-shadow: 2px 4px 4px #000;
+        font-size: .9rem;
+     
     }
 
     .button:checked ~ .inputs {
