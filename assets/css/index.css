@@ -277,10 +277,10 @@ html{
 .tema {
     color: white;
     text-transform: uppercase;
-    border: 2px solid #0f161b;
+
     padding: 15px;
     border-radius: 15px;
-    background-color: #0c0b0f;   
+    cursor: pointer;
     font-size: 15px;
     letter-spacing: 2px;
 }
