@@ -22,23 +22,22 @@
     <body id="home">
         <div class="wrapperContainer-dark wrapperContainer-fixado">
             <header class="header">
-                <h1 class="main-title">Agrinho 2023</h1>    
+                <div class="aside">
+                    <h1 class="main-title">Agrinho 2023</h1>   
+                    <div class="side">
+                        <label for="temas" class="tema"><i class="bi bi-palette"></i></label>
+                        <input type="checkbox" class="button" id="temas">
+                        <div class="inputs">
+                            <label class="inputs-checkbox">
+                                <input type="checkbox" id="dark" onclick="modoNotruno()">
+                                Dark mode      
+                            </label>
 
-                <div class="side">
-                    <label for="temas" class="tema"><i class="bi bi-palette"></i>Temas</label>
-                    <input type="checkbox" class="button" id="temas">
-                 
-                    
-                    <div class="inputs">
-                        <label class="inputs-checkbox">
-                            <input type="checkbox" id="dark" onclick="modoNotruno()">
-                            Dark mode      
-                        </label>
-
-                        <label class="inputs-checkbox">
-                            <input type="checkbox" id="light" onclick="modoClaro()" >
-                            light mode
-                        </label>
+                            <label class="inputs-checkbox">
+                                <input type="checkbox" id="light" onclick="modoClaro()" >
+                                light mode
+                            </label>
+                        </div>
                     </div>
                 </div>
                             
