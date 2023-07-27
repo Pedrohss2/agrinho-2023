@@ -22,8 +22,25 @@
     <body id="home">
         <div class="wrapperContainer-dark wrapperContainer-fixado">
             <header class="header">
-                <h1 class="main-title">Agrinho 2023</h1>
+                <h1 class="main-title">Agrinho 2023</h1>    
 
+                <div class="side">
+                    <label for="temas" class="tema">Temas</label>
+                        <input type="checkbox" class="button" id="temas">
+                 
+                    
+                    <div class="inputs">
+                        <label class="inputs-checkbox">
+                            <input type="checkbox" id="dark" onclick="modoNotruno()">
+                            Dark mode      
+                        </label>
+
+                        <label class="inputs-checkbox">
+                            <input type="checkbox" id="light" onclick="modoClaro()" >
+                            light mode
+                        </label>
+                    </div>
+                </div>
                             
                 <nav class="header_nav">
                     <input type="checkbox" class="menu-id" id="menu-btn">

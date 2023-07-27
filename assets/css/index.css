@@ -262,3 +262,49 @@ button {
     font-weight: bold;
 }
 
+
+.button {
+    display: none;
+}
+
+.button:hover {
+    background-color: #0c85fd;
+}
+
+.button:checked ~ .inputs {
+    background-color: #191825;
+    position: absolute;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+    padding: 40px;
+   
+    display: flex;
+    margin-top: 20px;
+    max-width: 110px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.side .inputs {
+    display: none;
+}
+.tema {
+    color: white;
+    text-transform: uppercase;
+    border: 2px solid #78C1F3;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #131033;   
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.tema:hover {
+    box-shadow: 0 0 4px rebeccapurple;
+    background-color: #0c85fd;
+}
+
+

@@ -193,6 +193,12 @@
         text-shadow: 2px 4px 4px #000;
     }
 
-
+    .button:checked ~ .inputs {
+        padding: 20px;
+    }
+    .tema {
+        padding: 10px;
+        font-size: 1rem;
+    }
 
 }
