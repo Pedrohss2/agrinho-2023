@@ -31,18 +31,17 @@ html{
 }
 
 .wrapperContainer-dark {
-    background-color: #161616;
+    background-color: #068FFF;
+    box-shadow: 0px 7px 8px #363333;
 }
 
 .header_nav ul{
     display: flex;
-
     gap: 2rem;
     list-style-type: none;
-
 }
 .header_nav ul li {
-    border-right: 1px solid rgba(240, 240, 240, 0.288);
+    border-right: 2px solid rgba(240, 240, 240, 0.63);
 }
 
 .header_nav ul li:last-child {
@@ -53,9 +52,16 @@ html{
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 1.6rem;
-    padding: 1rem ;
-    transition: .2s linear;
+    font-weight: bold;
+    padding: 1rem ;   
 }
+
+.menu-item a:hover { 
+   
+    border-bottom: 3px solid rgb(8, 255, 20);
+}
+
+
 .cor-Fundo {
     background-color: #ccc;
     width: 35px;
@@ -72,12 +78,7 @@ html{
     border-radius: 50%;
     padding: 15px;
     position: absolute;
-}
-.menu-item a:hover { 
-    color: white;
-    border-radius: 5px;
-    text-decoration: underline;
-    background: linear-gradient(90deg, #3f51b52a, transparent) #2195f344;
+   
 }
 
 
@@ -271,13 +272,13 @@ html{
    
     max-width: 110px;
 }
-.aside {
+.header-lado {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 25px;
 }   
-.side .inputs {
+.header-temas .inputs {
     display: none;
 }
 .tema {
@@ -294,6 +295,8 @@ html{
     box-shadow: 0 0 4px rebeccapurple;
     background-color: #191825;
 }
+
+
 
 .footer {
     margin-top: 50px;
