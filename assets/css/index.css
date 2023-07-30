@@ -19,7 +19,6 @@ html{
     z-index: 1;
 }
 
-
 .menu-id, .menu-icon {
     display: none;
 }
@@ -57,7 +56,7 @@ html{
     padding: 1rem ;   
 }
 
-.menu-item a:hover { 
+.menu-item  a:hover { 
     border-bottom: 3px solid rgb(8, 255, 20);
 }
 
@@ -271,7 +270,6 @@ html{
     padding: 15px;
     border-radius: 15px;
     font-size: 2.5rem;
-
 }
 .tema:hover {
     box-shadow: 0 0 4px rebeccapurple;
@@ -280,7 +278,6 @@ html{
 input[type='checkbox'] {
     display: none;
 }
-
 
 .footer {
     margin-top: 50px;
