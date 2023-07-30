@@ -3,6 +3,16 @@
         justify-content: space-between;
         display: flex;
     }
+
+    .button:checked ~ .inputs {
+        padding: 20px;
+    }
+    
+    .tema {
+        padding: 10px;
+        font-size: 2.5rem;
+    }
+
     .hero_aling {
         text-align: center;
     }
@@ -34,6 +44,7 @@
         transition: max-height .4s;
         margin: 0;
     } 
+
     .header-menu li {
         padding: 15px 0;
     } 
@@ -64,6 +75,7 @@
         transition: transform .2s ease-in-out;
         position: absolute;
     }  
+
     .nav-icon::after {
         transform: translateY(8px);
         transition: transform .2s ease-in-out;
@@ -103,6 +115,7 @@
         flex-direction: column;
         align-items: flex-end;
     }
+
    /* ---- Fim menu hamburguer ----*/
 
     .wrapperContainer-dark {
@@ -115,10 +128,12 @@
         animation: none;
         border-right: none;
     }
+
     .hero_aling p {
         font-size: 1.5rem;
        
     }
+
     .button:checked ~ .inputs {
         font-size: 1rem;
         max-width: 20rem;
@@ -130,7 +145,6 @@
     .container-section h2 {
         font-size: 2rem;
     }
-
 
     .container-main  {
         width: 80%;
@@ -160,12 +174,15 @@
     .texto-junto {
         padding: 20px;
     }
+
     .texto-junto p {
         text-align: left;
     }
+
     .texto-junto h3{
         text-shadow: 2px 2px 8px #000;
     }
+
     .container-image img {
         width: 100%;
         border-radius: 1rem;
@@ -177,6 +194,7 @@
         color: rgb(0, 255, 0);
         text-shadow: 2px 4px 4px #000;
     }
+
     .section-div {
         width: 100%;
         margin: auto;
@@ -189,7 +207,6 @@
 
     .section-div h3  {
         font-size: 1.5rem;
-       
     }
     .section-div p{
         font-size: 1.5rem;
@@ -199,13 +216,4 @@
         font-size: .9rem;
      
     }
-
-    .button:checked ~ .inputs {
-        padding: 20px;
-    }
-    .tema {
-        padding: 10px;
-        font-size: 2.5rem;
-    }
-
 }
