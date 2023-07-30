@@ -1,5 +1,5 @@
 function modoNotruno() {
-    const backgroundDark = document.body.style.background = '#000000';
+    const backgroundDark = document.body.style.background = '#000';
     let colorPcolorParagrafoDark = document.body.style.color = '#fff';
 }
 

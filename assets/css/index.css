@@ -32,7 +32,7 @@ html{
 
 .wrapperContainer-dark {
     background-color: var(--footer-header-color);
-    box-shadow: 0px 0px 10px #000000;
+    box-shadow: 0px 0px 15px #000;
 }
 
 .header_nav ul{
@@ -205,29 +205,35 @@ input[type='checkbox'] {
 
 .container-image h3 {
     text-transform: uppercase;
-    font-size: 2rem;
-    color: blue;
+    font-size: 3rem;
+    color: #0D1282;
     margin: 0;
+    text-shadow: -1px -1px 1px rgb(255, 255, 255);
+    
 } 
 .container-image p {
     text-align: justify;
     line-height: 2;
     font-size: 1.5rem;
     width: 100%;
-
 }
+
 .container-reverse {
     flex-direction: row-reverse;
 }
+
 .img3 {
     flex-direction: row;
 }
+
 .section-dicas {
     width: 90%;
     margin: auto
 }
 .section-dicas h2 {
+
     padding: 7rem 0 7rem 0 ;
+    text-shadow: 1px 1px 10px green;
 }
 .section-dicas p {
     text-align: left;
@@ -237,15 +243,14 @@ input[type='checkbox'] {
 }
 
 .section-div h3 {
+    text-shadow: 1px 1px 1px white;
     text-transform: uppercase;
     font-weight: bold;
-    color: green;
+    color: #0D1282;
     font-size: 2.5rem;
 
 }
-.section-div:hover {
-    color: #252525;
-}
+
 .h2 {
     padding: 4rem 2rem;
     text-align: center;
@@ -259,27 +264,30 @@ input[type='checkbox'] {
 
 .section-div_contador h3:before {
     font-weight: bold;
-    color:green;
+    color: #0D1282;
     counter-increment: contador;
     content: counter(contador);
-    margin-right: 10px;
+    margin-right: 1rem;
 }
 
 .conciente {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 2rem;
     text-align: center;
-    padding: 30px;
+    padding: 3rem;
+   
 }
 
 .footer {
-    margin-top: 50px;
+    margin-top: 5rem;
     text-align: center;
     background-color: var(--footer-header-color);
-    padding: 20px;
+    padding: 5px;
+    box-shadow: 1px 1px 5px black;
+}
+.footer p {
     color: white;
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 2rem;
     text-shadow: var(--text--shadow);
-
 }
