@@ -130,6 +130,7 @@ input[type='checkbox'] {
 }
 
 .section-hero {
+    color: bl;
     background: linear-gradient( #0e54b1, #00CCCC);
 }
 
@@ -153,7 +154,7 @@ input[type='checkbox'] {
 /* --Fim digitação-- */
 
 .hero_title {
-    color: #ffffff;
+    color: black;
     font-size: var(--font--title);
     padding-bottom: 2rem;
     text-transform: uppercase;
@@ -168,7 +169,7 @@ input[type='checkbox'] {
 
 .hero_aling p{
     font-size: 2rem;
-    color: #ffffff;
+    color: black;
     font-weight: bold;
 }
 .container_title {
