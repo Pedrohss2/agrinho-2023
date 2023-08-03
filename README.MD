@@ -27,9 +27,8 @@
 <ol>
     <li>Assets:</li>
     <li>js (Arquivos de javasCript)</li>
-    <li>css (Aquivos de css)</li>
+    <li>css (Arquivos de css)</li>
     <li>img (Fotos do site)</li>
-    <li>Rodapé da página (footer)</li>
 </ol>
 <hr>
 
