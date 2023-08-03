@@ -58,7 +58,8 @@ html{
     padding: 1rem ;   
 }
 
-.menu-item  a:hover { 
+.menu-item a:hover {
+    opacity: .5; 
     border-bottom: 3px solid rgb(8, 255, 20);
 }
 
@@ -132,7 +133,7 @@ input[type='checkbox'] {
 }
 
 .section-hero {
-    color: bl;
+    color: black;
     background: linear-gradient( #0e54b1, #00CCCC);
 }
 
