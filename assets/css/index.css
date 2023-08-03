@@ -3,6 +3,8 @@ html{
     font-size: 62.5%;
     font-family: sans-serif, cursive, Verdana, Geneva, Tahoma;
     font-weight: 400;
+    scroll-behavior: smooth;
+    scroll-padding-top: 46px;
 }
 /*<-- Variáveis -->*/
 :root {
